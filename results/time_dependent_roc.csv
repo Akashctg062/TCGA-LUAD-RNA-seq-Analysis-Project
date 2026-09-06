@@ -1,0 +1,4 @@
+time_point,risk_score_AUC,n_eligible,n_events
+1-year,0.6385964912280702,397,57
+3-year,0.6245600804424334,253,136
+5-year,0.6293195108984582,215,171

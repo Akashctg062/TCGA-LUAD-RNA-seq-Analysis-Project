@@ -1,0 +1,43 @@
+Label,Description,Filename,Type,Status
+Figure 1,Study workflow diagram,fig01_study_workflow.png,Main,Yes
+Figure 2,PCA plot — tumor vs normal separation,pca_tumor_vs_normal.png,Main,Yes
+Figure 3,Volcano plot of differentially expressed genes,volcano_plot.png,Main,Yes
+Figure 4,Heatmap of top 50 DEGs,heatmap_top_degs.png,Main,Yes
+Figure 5,WGCNA module-trait correlation heatmap,wgcna_module_trait_heatmap.png,Main,Yes
+Figure 6,PPI network of hub genes with centrality ranking,ppi_network.png,Main,Yes
+Figure 7,Kaplan-Meier survival curves for 5 hub genes,km_curves_hub_genes.png,Main,Yes
+Figure 8,Cox regression forest plot (univariate + multivariate),cox_forest_plot.png,Main,Yes
+Figure 9,Hub gene–immune cell infiltration correlation,immune_hub_correlation_heatmap.png,Main,Yes
+Figure 10,ROC curves — individual hub genes + multi-gene model,roc_individual.png,Main,Yes
+Figure 11,GEO external validation — forest plot (3 cohorts),geo_forest_plot.png,Main,Yes
+Figure 12,Pan-cancer expression landscape (33 TCGA cancers),pancancer_expression_heatmap.png,Main,Yes
+Fig S1,PCA colored by clinical variables,pca_clinical_variables.png,Supplementary,Yes
+Fig S2,MA plot of differential expression,ma_plot.png,Supplementary,Yes
+Fig S3,DEG up/down counts,deg_counts_barplot.png,Supplementary,Yes
+Fig S4,GO enrichment — combined barplot,go_combined_barplot.png,Supplementary,Yes
+Fig S5,GO Biological Process dotplot (downregulated),go_bp_down_dotplot.png,Supplementary,Yes
+Fig S6,KEGG pathway dotplot,kegg_down_dotplot.png,Supplementary,Yes
+Fig S7,GSEA Hallmark dotplot,gsea_hallmark_dotplot.png,Supplementary,Yes
+Fig S8,GSEA enrichment plots — top pathways,gsea_top_enrichment_plots.png,Supplementary,Yes
+Fig S9,WGCNA soft threshold selection,wgcna_soft_threshold.png,Supplementary,Yes
+Fig S10,WGCNA gene dendrogram + module colors,wgcna_dendrogram_modules.png,Supplementary,Yes
+Fig S11,Hub gene centrality ranking,hub_gene_ranking.png,Supplementary,Yes
+Fig S12,Immune infiltration — tumor vs normal,immune_tumor_vs_normal.png,Supplementary,Yes
+Fig S13,Hub gene expression violin plots,biomarker_expression_violin.png,Supplementary,Yes
+Fig S14,Multi-gene diagnostic model (confusion matrix + PR),diagnostic_nomogram.png,Supplementary,Yes
+Fig S15,Multi-gene ROC with cross-validation,roc_multi_gene.png,Supplementary,Yes
+Fig S16,ceRNA / TF regulatory network,ceRNA_regulatory_network.png,Supplementary,Yes
+Fig S17,Drug-gene association heatmap,drug_target_heatmap.png,Supplementary,Yes
+Fig S18,Drug sensitivity correlation,drug_sensitivity_correlation.png,Supplementary,Yes
+Fig S19,GEO survival validation — KM curves,geo_survival_validation.png,Supplementary,Yes
+Fig S20,GEO expression validation,geo_expression_validation.png,Supplementary,Yes
+Fig S21,Pan-cancer survival significance heatmap,pancancer_survival_heatmap.png,Supplementary,Yes
+Fig S22,Hub gene mutation landscape,multi_omics_mutation_oncoplot.png,Supplementary,Yes
+Fig S23,Multi-omics integration summary,multi_omics_summary.png,Supplementary,Yes
+Fig S24,ML model comparison — ROC + metrics,ml_model_comparison.png,Supplementary,Yes
+Fig S25,SHAP feature importance + dependence,shap_importance.png,Supplementary,Yes
+Fig S26,Time-dependent ROC (1/3/5 year),time_dependent_roc.png,Supplementary,Yes
+Fig S27,Risk score stratification — KM + distribution,risk_score_stratification.png,Supplementary,Yes
+Fig S28,Mutation-stratified survival (TP53/KRAS/EGFR × hub genes),mutation_stratified_km.png,Supplementary,Yes
+Fig S29,Hub gene expression across tumor stages,stage_hub_interaction.png,Supplementary,Yes
+Fig S30,Combined clinical-molecular landscape,combined_clinical_molecular.png,Supplementary,Yes

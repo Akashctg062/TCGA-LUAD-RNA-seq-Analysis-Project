@@ -1,0 +1,6 @@
+gene,tumor_mean_expr,normal_mean_expr,log2FC,direction,predicted_methylation
+BIRC5,4.912687045345267,1.888734628440397,3.02395241690487,Upregulated,Hypomethylated in Tumor
+CCNB1,5.079780147474204,2.5799742085620165,2.4998059389121874,Upregulated,Hypomethylated in Tumor
+CCNB2,4.088525180351114,1.6901174295004406,2.398407750850674,Upregulated,Hypomethylated in Tumor
+CDC20,4.735753506724517,1.6594123034602586,3.076341203264259,Upregulated,Hypomethylated in Tumor
+KIF2C,4.096048042993316,1.393406318135448,2.7026417248578682,Upregulated,Hypomethylated in Tumor

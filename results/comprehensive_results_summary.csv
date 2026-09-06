@@ -1,0 +1,58 @@
+Category,Metric,Value
+DEG Analysis,Total significant DEGs,8301
+DEG Analysis,Upregulated,5797
+DEG Analysis,Downregulated,2504
+Hub Genes,Identified,"CCNB1, BIRC5, CCNB2, CDC20, SCN7A"
+Cox Univariate,CCNB1 HR,1.360 (p=5.23e-06)
+Cox Univariate,CCNB2 HR,1.265 (p=1.89e-04)
+Cox Univariate,BIRC5 HR,1.229 (p=2.06e-04)
+Cox Univariate,CDC20 HR,1.219 (p=3.40e-04)
+Cox Univariate,KIF2C HR,1.227 (p=4.36e-04)
+Diagnostic ROC,BIRC5 AUC,0.969
+Diagnostic ROC,CCNB1 AUC,0.985
+Diagnostic ROC,CCNB2 AUC,0.974
+Diagnostic ROC,CDC20 AUC,0.983
+Diagnostic ROC,KIF2C AUC,0.985
+ML Classification,Logistic Regression,"AUC=0.989, Acc=0.967"
+ML Classification,Random Forest,"AUC=0.982, Acc=0.972"
+ML Classification,SVM (RBF),"AUC=0.979, Acc=0.967"
+ML Classification,MLP Neural Net,"AUC=0.372, Acc=0.885"
+ML Classification,XGBoost,"AUC=0.977, Acc=0.976"
+Prognostic ROC,1-year risk score AUC,0.639
+Prognostic ROC,3-year risk score AUC,0.625
+Prognostic ROC,5-year risk score AUC,0.629
+GEO Validation,BIRC5 in GSE31210,Significant: 0.1538375888161339
+GEO Validation,CCNB1 in GSE31210,Significant: 0.0467950694417035
+GEO Validation,CCNB2 in GSE31210,Significant: 0.0055012442015233
+GEO Validation,CDC20 in GSE31210,Significant: 0.0488312435160633
+GEO Validation,KIF2C in GSE31210,Significant: 0.009210520772832
+GEO Validation,BIRC5 in GSE72094,Significant: nan
+GEO Validation,CCNB1 in GSE72094,Significant: nan
+GEO Validation,CCNB2 in GSE72094,Significant: nan
+GEO Validation,CDC20 in GSE72094,Significant: nan
+GEO Validation,KIF2C in GSE72094,Significant: nan
+GEO Validation,BIRC5 in GSE68465,Significant: 2.5592630258383868e-08
+GEO Validation,CCNB1 in GSE68465,Significant: 1.3786840909221131e-05
+GEO Validation,CCNB2 in GSE68465,Significant: 1.0257166119401569e-07
+GEO Validation,CDC20 in GSE68465,Significant: 1.1836435250234478e-05
+GEO Validation,KIF2C in GSE68465,Significant: 6.617776560437684e-05
+Mutation-Stratified,TP53×BIRC5,p=1.21e-04 (Sig)
+Mutation-Stratified,TP53×CCNB1,p=2.38e-04 (Sig)
+Mutation-Stratified,TP53×CCNB2,p=2.22e-03 (Sig)
+Mutation-Stratified,TP53×CDC20,p=4.69e-03 (Sig)
+Mutation-Stratified,TP53×KIF2C,p=5.74e-03 (Sig)
+Mutation-Stratified,KRAS×BIRC5,p=5.43e-03 (Sig)
+Mutation-Stratified,KRAS×CCNB1,p=2.02e-02 (Sig)
+Mutation-Stratified,KRAS×CCNB2,p=3.10e-02 (Sig)
+Mutation-Stratified,KRAS×CDC20,p=2.57e-01 (NS)
+Mutation-Stratified,KRAS×KIF2C,p=2.87e-01 (NS)
+Mutation-Stratified,EGFR×BIRC5,p=8.41e-03 (Sig)
+Mutation-Stratified,EGFR×CCNB1,p=3.65e-03 (Sig)
+Mutation-Stratified,EGFR×CCNB2,p=4.08e-02 (Sig)
+Mutation-Stratified,EGFR×CDC20,p=1.28e-02 (Sig)
+Mutation-Stratified,EGFR×KIF2C,p=2.19e-03 (Sig)
+Stage-Stratified,BIRC5 Kruskal-Wallis,p=0.0188 (Sig)
+Stage-Stratified,CCNB1 Kruskal-Wallis,p=0.0021 (Sig)
+Stage-Stratified,CCNB2 Kruskal-Wallis,p=0.0060 (Sig)
+Stage-Stratified,CDC20 Kruskal-Wallis,p=0.0090 (Sig)
+Stage-Stratified,KIF2C Kruskal-Wallis,p=0.0139 (Sig)
